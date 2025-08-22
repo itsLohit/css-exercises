@@ -36,16 +36,17 @@ ul.dropdown-menu li:hover {
   transform-origin: top;
 }
 
-@keyframes expand {
-  0% {
+@keyframes dropdown {
+  from {
     transform: scaleY(0);
+    transform-origin: top;
   }
 
   70% {
     transform: scaleY(1.1);
   }
-  
-  100% {
+
+  to {
     transform: scaleY(1);
   }
 }
